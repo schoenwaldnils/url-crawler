@@ -1,0 +1,22 @@
+{
+  "name": "url-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node crawl.js",
+    "json2csv": "json2csv"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-timeout": "^0.3.0",
+    "eslint-config-schoenwaldnils": "^1.0.2",
+    "fs-extra": "^7.0.1",
+    "is-url": "^1.2.4",
+    "isomorphic-fetch": "^2.2.1",
+    "json2csv": "^4.3.2",
+    "progress": "^2.0.3"
+  }
+}
